@@ -17,13 +17,13 @@ class Solution {
             if (current[2] < current[0] && next[2] >= next[0]) {
                 hHit = true;
             }
-            if (current[2] < current[0] && next[2] == 0.0 && 360.0 >= next[0]) {
+            if (current[2] < current[0] && next[2] == 0.0) {
                 hHit = true;
             }
             if (current[2] < current[1] && next[2] >= next[1]) {
                 mHit = true;
             }
-            if (current[2] < current[1] && next[2] == 0.0 && 360.0 >= next[1]) {
+            if (current[2] < current[1] && next[2] == 0.0) {
                 mHit = true;
             }
 
